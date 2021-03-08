@@ -3,7 +3,7 @@
   }
   
   body {
-    font-family: 'Proxima Nova Rg';
+    font-family:'Nunito';
   }
   
   .bg-black {
@@ -16,7 +16,7 @@
   
   .hero-text h1 {
     font-size: 5rem;
-    font-family: 'Proxima Nova Bold';
+    font-family: 'Nunito-Bold';
     letter-spacing: .1rem;
     color: rgb(0, 0, 0);
   }
