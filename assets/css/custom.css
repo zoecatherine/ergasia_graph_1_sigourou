@@ -2,34 +2,84 @@
     border: 1px solid red;
   }
   
-  body {
+  body, html {
     font-family:'Nunito';
+    height: 100%;
   }
   
   .bg-black {
       background-color: #000000 !important;
   }
-  
-  .hero-text {
-    height: 100vh;
+
+  h3 {
+    font-family: "Nunito-Bold";
+    font-size: 2.425rem;
   }
   
-  .hero-text h1 {
+  
+  
+  section.hero h1 {
     font-size: 5rem;
-    font-family: 'Nunito';
-    font-weight: bold;
+    font-family: 'Nunito-Bold';    
     letter-spacing: .1rem;
     color: rgb(0, 0, 0);
   }
   
-  .hero-text p {
+  .hero.text p {
     font-size: 2.5rem;
     letter-spacing: .15rem;
   }
 
-  .section-hero {
-    background: url(..//img/img_1_hero.jpg) ;
+  section.hero {
+    background: url(..//img/img_1_hero.jpg) no-repeat center center;
     background-size: cover;
     height: 80vh;
+    color: #fff;
   }
+
+  /* Section About Styles */
+
+  section.about {
+    height: 100vh;
+    background: rgb(235,235,235);
+    background: linear-gradient(90deg, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 35%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 100%);
+    }
+
+  section.about .image_wrapper {
+    background: #fff;
+    box-shadow: 10px 10px 16px -4px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 10px 10px 16px -4px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 16px -4px rgba(0,0,0,0.5);
+  }
+  
+  section.about .image_wrapper img {
+    padding: .75rem;
+  }
+
+  section.about span {
+  font-size: 1.312rem;
+  letter-spacing: .05rem;
+}
+
+section.about p {
+  font-family: 'Proxima Nova Th';
+  font-size: 1.312rem;
+  letter-spacing: .02rem;
+}
+
+/* Section About Services */
+
+section.services {
+  height: 100vh;
+  background: #ebebeb;
+}
+
+
+
+section.services .section_header_devider {
+    height: 1px;
+    width: 100px;
+    background: #bbbdbf;
+}
+
   
