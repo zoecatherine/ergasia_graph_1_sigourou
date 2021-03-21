@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Nunito';
+    font-family: 'Nunito-Italic';
     src: url('subset-Nunito-Italic.eot');
     src: url('subset-Nunito-Italic.eot?#iefix') format('embedded-opentype'),
         url('subset-Nunito-Italic.woff2') format('woff2'),
@@ -11,7 +11,7 @@
 }
 
 @font-face {
-    font-family: 'Nunito';
+    font-family: 'Nunito-Light';
     src: url('subset-Nunito-Light.eot');
     src: url('subset-Nunito-Light.eot?#iefix') format('embedded-opentype'),
         url('subset-Nunito-Light.woff2') format('woff2'),
@@ -35,7 +35,7 @@
 }
 
 @font-face {
-    font-family: 'Nunito';
+    font-family: 'Nunito-Bold';
     src: url('subset-Nunito-Bold.eot');
     src: url('subset-Nunito-Bold.eot?#iefix') format('embedded-opentype'),
         url('subset-Nunito-Bold.woff2') format('woff2'),
@@ -47,7 +47,7 @@
 }
 
 @font-face {
-    font-family: 'Nunito';
+    font-family: 'Nunito-ExtraBold';
     src: url('subset-Nunito-ExtraBold.eot');
     src: url('subset-Nunito-ExtraBold.eot?#iefix') format('embedded-opentype'),
         url('subset-Nunito-ExtraBold.woff2') format('woff2'),
